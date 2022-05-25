@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class SimpleBot {
-    final static Scanner scanner = new Scanner(System.in); // Do not change this line
+
+    private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
         greet("Eliss", "2021"); // change it as you need
